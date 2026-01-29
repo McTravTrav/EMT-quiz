@@ -25,7 +25,7 @@ MASTER_QUESTIONS = [
     {"q": "Max suction time for an adult:", "options": ["5 sec", "10 sec", "15 sec", "20 sec"], "correct": "15 sec", "rationale": "To prevent hypoxia."},
     {"q": "Max suction time for a child:", "options": ["5 sec", "10 sec", "15 sec", "20 sec"], "correct": "10 sec", "rationale": "Children have less oxygen reserve."},
     {"q": "Max suction time for an infant:", "options": ["5 sec", "10 sec", "15 sec", "20 sec"], "correct": "5 sec", "rationale": "Infants desaturate extremely fast."},
-    {"q": "How do you size an OPA?", "options": ["Corner of mouth to earlobe", "Tip of nose to earlobe", "Center of mouth to jaw", "Nose to chin"], "correct": "Corner of mouth to earlobe", "rationale": "Or center of mouth to angle of jaw."},
+    {"q": "How do you size an OPA?", "options": ["Corner of mouth to nose", "Tip of nose to earlobe", "Center of mouth to angle of jaw", "Nose to chin"], "correct": "Corner of mouth to angle of jaw", "rationale": "Or center of mouth to angle of jaw."},
     {"q": "Contraindication for an OPA:", "options": ["Gag reflex", "No teeth", "Skull fracture", "Fluid in airway"], "correct": "Gag reflex", "rationale": "It will cause vomiting and aspiration."},
     {"q": "How do you size an NPA?", "options": ["Corner of mouth to earlobe", "Tip of nose to earlobe", "Center of mouth to jaw", "Nose to chin"], "correct": "Tip of nose to earlobe", "rationale": "Measure from the nostril to the earlobe/angle of jaw."},
     {"q": "Contraindication for an NPA:", "options": ["Gag reflex", "Basilar skull fracture", "Seizure", "Stroke"], "correct": "Basilar skull fracture", "rationale": "Risk of pushing the tube into the brain."},
@@ -212,3 +212,4 @@ else:
         if st.button("Reshuffle and Restart From Question 1"):
             initialize_quiz()
             st.rerun()
+
